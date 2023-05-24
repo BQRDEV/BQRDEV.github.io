@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/uikit.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.js"></script>
+    <title>Buğra Yavuzdoğan</title>
+  </head>
+
+  <body>
+    <nav
+      class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right"
+      uk-navbar
+      uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky"
+    >
+      <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav uk-light">
+          <li>
+            <a
+              class="uk-button-text uk-text-capitalize"
+              href="/index.html"
+              uk-scroll
+              >Home</a
+            >
+          </li>
+          <li>
+            <a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              class="uk-button-text uk-text-capitalize"
+              href="#projects"
+              uk-scroll
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              class="uk-button-text uk-text-capitalize"
+              href="#contact"
+              uk-scroll
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav
+      class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right"
+      uk-navbar
+      uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky"
+    >
+      <div class="uk-navbar-left">
+        <a href="" class="uk-navbar-item uk-logo uk-light">Buğra</a>
+      </div>
+      <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav uk-light">
+          <li>
+            <button
+              uk-toggle="target: #offcanvas-nav"
+              type="button"
+              uk-navbar-toggle-icon
+            ></button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+      <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+          <li class="uk-active"><a href="/index.html" uk-scroll>Home</a></li>
+          <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
+          <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
+          <li class="uk-active"><a href="#contact" uk-scroll>Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div
+      class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom"
+    >
+      <h1
+        class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right"
+      >
+        I'm Buğra, Informatics Technology Student
+      </h1>
+      <a
+        href="#about"
+        class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary"
+        uk-scroll
+        >About Me</a
+      >
+    </div>
+
+    <hr
+      class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right"
+    />
+    <div
+      id="about"
+      class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom"
+      style="padding-top: 10%"
+    >
+      <h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
+      <p class="uk-margin-xlarge-left uk-margin-xlarge-right">
+        My name is Buğrahan Yavuzdoğan. I was born on October 3, 2005 in
+        Gaziosmanpaşa, Istanbul. I have completed my primary and secondary
+        education and am currently continuing my education at a high school in
+        Istanbul. I got acquainted with Information Technologies at the age of
+        13 and decided to progress in this field. I am still developing myself
+        in the field of informatics in areas such as Intra-Network Attacks, Web
+        Security on the Kali Linux side, which is a Linux distribution. My
+        hobbies include swimming, playing Football and playing Guitar Dec. I am
+        currently 17 years old and I am continuing my career as an Informatics
+        Technology Student.
+      </p>
+      <a
+        href="https://www.linkedin.com/in/bqrayvzdgn/"
+        class="uk-margin-xlarge-left uk-light uk-button-text"
+        uk-icon="linkedin"
+        target="_blank"
+      ></a>
+      &nbsp;
+      <a
+        href="https://www.github.com/Bqrayvzdgn"
+        class="uk-button-text uk-light"
+        uk-icon="github"
+        target="_blank"
+      ></a>
+      &nbsp;
+      <a
+        href="https://www.twitter.com/Bqrayvzdgn"
+        class="uk-button-text uk-light"
+        uk-icon="twitter"
+        target="_blank"
+      ></a>
+    </div>
+
+    <hr class="uk-margin-xlarge-left uk-margin-xlarge-right" />
+    <div
+      id="projects"
+      class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom"
+      style="padding-top: 10%"
+    >
+      <h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
+      <p class="uk-margin-xlarge-left">Projects that I've been working on</p>
+      <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+          <h4>Harika-bir-blog</h4>
+          <p>
+            A simple blog site where users log in, write, like and share blog
+            posts.
+          </p>
+          <p>Not active!</p>
+        </div>
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+          <h4>Random-password-generator</h4>
+          <p>
+            It is a desktop application that allows users to create both single
+            and multiple passwords.
+          </p>
+          <p>Not active!</p>
+        </div>
+        <!-- <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <h4>Profile-card</h4>                                                           // Profil Card
+                <p>It is a website created easily and simply</p>
+                <p>Not active!</p>
+            </div> -->
+      </div>
+    </div>
+
+    <hr class="uk-margin-xlarge-left uk-margin-xlarge-right" />
+    <div
+      id="contact"
+      class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom"
+    >
+      <h3 class="uk-margin-xlarge-left uk-light">Contact</h3>
+      <p class="uk-margin-xlarge-left uk-margin-xlarge-right">
+        You can contact me on these platforms:
+        <a
+          href="mailto:bqrayvzdgn74@gmail.com"
+          class="uk-light"
+          uk-icon="mail"
+          target="_blank"
+        ></a>
+      </p>
+    </div>
+  </body>
+</html>
