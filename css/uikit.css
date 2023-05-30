@@ -5851,6 +5851,7 @@ ul.uk-nav-sub {
 .uk-navbar-right,
 .uk-navbar-center:only-child {
   flex-wrap: wrap;
+  font-family: IBM Plex Mono", monospace;
 }
 
 /*
@@ -9327,9 +9328,7 @@ iframe[data-uk-cover] {
  */
 .uk-logo {
   font-size: 1.5rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "IBM Plex Mono", monospace;
   color: #333;
   /* 1 */
   text-decoration: none;
